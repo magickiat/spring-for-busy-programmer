@@ -40,5 +40,6 @@
 	</build>
 	<modules>
 		<module>chapter1-normal-java-project</module>
+		<module>chapter1-spring-xml-config</module>
 	</modules>
 </project>
