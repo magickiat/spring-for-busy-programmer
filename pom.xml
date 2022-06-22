@@ -42,5 +42,6 @@
 		<module>chapter1-normal-java-project</module>
 		<module>chapter1-spring-xml-config</module>
 		<module>chapter1-spring-java-config</module>
+		<module>chapter2-initial-bean</module>
 	</modules>
 </project>
