@@ -1,12 +1,13 @@
 package cc.magickiat.spring.intro;
 
+import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Scope;
 
 public class Config {
 
   @Bean
-  @Scope("singleton")
+  @Scope(value = BeanDefinition.SCOPE_SINGLETON)
   private Person malePerson() {
     Person malePerson = new Person();
     malePerson.setGender("Male");
@@ -14,7 +15,7 @@ public class Config {
   }
 
   @Bean
-  @Scope("prototype")
+  @Scope(value = BeanDefinition.SCOPE_PROTOTYPE)
   private Person femalePerson() {
     Person malePerson = new Person();
     malePerson.setGender("Female");
