@@ -52,5 +52,6 @@
 		<module>chapter2-initial-bean</module>
 		<module>chapter2-bean-scopes</module>
 		<module>chapter2-lifecycle</module>
+		<module>chapter2-shutdown-hook</module>
 	</modules>
 </project>
